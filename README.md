@@ -44,4 +44,12 @@
 Установка модуля:
 
 ```bash
-pip install psutil
+pip install psuti
+```
+
+## Пример запуска
+
+Для запуска программы необходимо выполнить команду:
+
+```bash
+python main.py
