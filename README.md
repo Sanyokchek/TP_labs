@@ -53,3 +53,32 @@ pip install psuti
 
 ```bash
 python main.py
+```
+## Пример вывода
+
+После запуска программы в текущей директории создаётся файл `pc_info.json` со следующей структурой:
+```json
+{
+    "os": {
+        "name": "Windows",
+        "release": "10",
+        "version": "10.0.19045",
+        "architecture": "AMD64"
+    },
+    "computer": {
+        "processor": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+        "cpu_count": 8,
+        "ram": "15.87 GB",
+        "disks": [
+            {
+                "device": "C:\\",
+                "total memory": "475.69 GB"
+            },
+            {
+                "device": "G:\\",
+                "total memory": "931.50 GB"
+            }
+        ]
+    }
+}
+```
