@@ -44,7 +44,7 @@
 Установка модуля:
 
 ```bash
-pip install psuti
+pip install psutil
 ```
 
 ## Пример запуска
