@@ -52,7 +52,7 @@ pip install psutil
 Для запуска программы необходимо выполнить команду:
 
 ```bash
-python main.py
+python lab1TP.py
 ```
 ## Пример вывода
 
